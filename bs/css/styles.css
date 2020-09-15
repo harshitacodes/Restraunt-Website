@@ -1,0 +1,177 @@
+body{
+    background-color: #852b1f;
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    font-size: large;
+    text-shadow: 10px  rgb(216, 10, 10);
+}
+
+.navbar{
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border: 2px solid rgb(17, 12, 12);
+
+}
+
+#header-nav{
+    background-color: #f1d39c;
+    border-radius: 0;
+    height: 150px;
+    margin-top: -10px;
+} 
+
+
+#logo-img{
+    border-radius: 50%;
+    height:  150px;
+    width: 150px;
+    margin-top: 10px 15px 10px 0;
+} 
+
+#star-logo{
+    width: 30px;
+    height:  30px;
+    margin: 20px ;
+
+}
+
+.pull-left{
+    float: left;
+}
+
+
+p > span{
+    color: rgb(31, 27, 27);
+    position: absolute;
+    top: 110px;
+    left: 16%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar-brand a h1{
+    font-family: 'lora',serif;
+    position: relative;
+    top: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+
+}
+
+
+.main-image img {
+    margin: 5%;
+    border: 2px solid  #6b0906;
+    box-shadow: 0 0 10px #3F0C1F;
+}
+
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    float: left;
+}
+  
+#nav-list{
+    text-align: right;
+    margin-top: -110px;
+    float: right;
+    font-size: 1.0em;
+}
+
+
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+
+
+#nav-list a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+i{
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+
+#home-tiles{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+    
+
+#menu-tile, #special-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #000000;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#menu-tile {
+    background: url("../images/menu-tile.jpg") no-repeat;
+    width: 350px;
+
+}
+
+#special-tile{
+    background: url("../images/specials-tile.jpg") no-repeat;
+    width: 350px;
+}
+
+
+#menu-tile:hover, #special-tile:hover, #map-tile:hover{
+    box-shadow: 0 2px 5px 2px #ece6e6;
+}
+
+#menu-tile span,  #special-tile span,  #map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+
+}
+
+.panel-footer{
+    background-color: black;
+    margin-top: 40px;
+}
+
+.row{
+    color: white;
+    font-family: serif;
+    display: flex;
+}
+
+
+.r{
+    padding: 20px;
+    font-size: medium;
+    padding: 5%;
+    line-height: 2;
+}
+
+.text-center{
+    text-align: center;
+    color: white;
+    font-family: serif;
+}
+
