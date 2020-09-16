@@ -111,13 +111,14 @@ i{
 
 #menu-tile, #special-tile, #map-tile{
     height: 250px;
-    width: 100%;
+    width: 95%;
     margin-bottom: 15px;
     position: relative;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     overflow: hidden;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #3F0C1F;
 }
 
 
@@ -178,7 +179,6 @@ i{
 .r1{
     font-style: italic;
     color: rgb(11, 47, 11);
-
 }
 
 .r3{
